@@ -991,7 +991,7 @@ header nav .nested-menu ul li:hover::before {
   overflow: hidden;
 }
 .services .container .service p::before {
-  counter-increment: members-count;
+  counter-increment: services;
   content: '0' counter(services);
   position: absolute;
   color: #fff;
